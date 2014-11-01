@@ -25,7 +25,7 @@ package ustc.se.courseproject;
 public class Student {
 	String stuId;
 	String stuName;
-	String gender = "male";
+	String gender;
 	String phoneNumber;
 	String email;
 	String academy;

@@ -1,0 +1,4 @@
+This is software engineer course project of USTC!
+
+It is a book management system.
+

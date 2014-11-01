@@ -29,11 +29,11 @@ public class Book {
 	double price;
 	String press;
 	String publicDate;
-	short cateId;
+	String cateName;
 	
 	//constructor
 	public Book(String isbn, String author, String title, double price, 
-			String press, String publicDate, short cateId) {
+			String press, String publicDate, String cateName) {
 		
 		this.isbn = isbn;
 		this.author = author;
@@ -41,7 +41,7 @@ public class Book {
 		this.price = price;
 		this.press = press;
 		this.publicDate = publicDate;
-		this.cateId = cateId;
+		this.cateName = cateName;
 	}
 
 }

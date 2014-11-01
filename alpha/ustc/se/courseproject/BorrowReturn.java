@@ -31,11 +31,12 @@ public class BorrowReturn {
 	String expireDate;
 	boolean isReturn;
 	String opName;
+	short userId;
 	
 	//constructor
 	public BorrowReturn(int brId, String isbn, String stuId, String stuName, 
 			String borrowDate, String expireDate, boolean isReturn, 
-			String opName) {
+			String opName, short userId) {
 			
 			this.brId = brId;
 			this.isbn = isbn;
@@ -45,5 +46,6 @@ public class BorrowReturn {
 			this.expireDate = expireDate;
 			this.isReturn = isReturn;
 			this.opName = opName;
+			this.userId = userId;
 	}		
 }

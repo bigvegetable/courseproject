@@ -25,21 +25,28 @@ package ustc.se.courseproject;
 public class Manager {
 	short userId;
 	String userName;
-	String passwd;
+	String password;
+	String phoneNumber;
+	String email;
 	String logInTime;
 	String logOutTime;
-	String ipAddr;
+	String ethernetIpAddr;
+	String wlanIpAddr;
 	
 	//constructor
-	public Manager(short userId, String userName, String passwd, String logInTime, 
-			String logOutTime, String ipAddr) {
+	public Manager(short userId, String userName, String password, String phoneNumber, 
+			String logInTime, String email, String logOutTime, 
+			String ethernetIpAddr, String wlanIpAddr) {
 		
 		this.userId = userId;
 		this.userName = userName;
-		this.passwd = passwd;
+		this.password = password;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
 		this.logInTime = logInTime;
 		this.logOutTime = logOutTime;	
-		this.ipAddr = ipAddr;
+		this.ethernetIpAddr = ethernetIpAddr;
+		this.wlanIpAddr = wlanIpAddr;
 	}
 
 }

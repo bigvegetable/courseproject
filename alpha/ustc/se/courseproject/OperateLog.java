@@ -25,13 +25,14 @@ package ustc.se.courseproject;
 public class OperateLog {
 	int opId;
 	String userId;
+	String opName;
 	String description;
 	String opTime;
 	String opType;
-	String opName;
+
 	
-	public OperateLog(int opId, String userId, String description, String opTime,
-			String opType, String opName) {
+	public OperateLog(int opId, String userId, String opName, String description, String opTime,
+			String opType) {
 		this.opId = opId;
 		this.userId = userId;
 		this.description = description;

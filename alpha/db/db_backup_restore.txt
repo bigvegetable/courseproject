@@ -1,0 +1,9 @@
+这个文件说明了图书管理系统数据库的相关信息。
+
+１、系统一共定义了７个数据表分别为book、borrow_return、category、manager、operate_log、statistics、student，详细信息见db/tables目录下截图。
+
+２、通过使用mysqldump命令将原始数据库备份为library.sql文件，具体备份及恢复命令如下：
+备份：mysqldump -u root -p library > library.sql
+恢复：mysql -u root -p library < library.sql
+
+注： 文件名前可以有绝对路径
